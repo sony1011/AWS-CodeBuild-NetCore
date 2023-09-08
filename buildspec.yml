@@ -13,3 +13,6 @@ artifacts:
     - CodeBuild-SampleCore/build_output/**/*
     - scripts/**/*
     - appspec.yml
+    - - "**/*"
+  discard-paths: no
+  base-directory: dist/
